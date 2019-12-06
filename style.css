@@ -289,7 +289,7 @@ img {
   background-color: #f8f5f5; }
 
 .nicescroll-rails {
-  z-index: 999999 !important; }
+  display: none; }
 
 .section-heading {
   text-align: center;
@@ -485,8 +485,8 @@ img {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); }
   .mainMenu .closeIcon {
     position: absolute;
-    right: 50px;
-    top: 50px;
+    right: 45%;
+    top: 120px;
     z-index: 9;
     color: #ffffff;
     font-size: 20px;
@@ -498,8 +498,8 @@ img {
       transform: rotate(180deg); }
     @media only screen and (max-width: 767px) {
       .mainMenu .closeIcon {
-        right: 30px;
-        top: 30px; } }
+        right: 45%;
+        top: 80px; } }
   .mainMenu .logo-area a {
     color: #ffffff;
     font-size: 30px;
