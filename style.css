@@ -288,9 +288,6 @@ img {
 .bg-gray {
   background-color: #f8f5f5; }
 
-.nicescroll-rails {
-  display: none; }
-
 .section-heading {
   text-align: center;
   margin-bottom: 80px;
@@ -436,13 +433,13 @@ img {
   transition-duration: 500ms;
   background-color: transparent;
   padding: 15px 30px; }
-  .header-area .logo-area a {
+  .header-area .logo-area a img {
     color: #ffffff;
     font-size: 36px;
     font-weight: 100; }
     @media only screen and (max-width: 767px) {
-      .header-area .logo-area a {
-        font-size: 24px; } }
+      .header-area .logo-area a img {
+        width: 80%; } }
   .header-area .menu-content-area .header-social-area {
     margin-right: 30px; }
     .header-area .menu-content-area .header-social-area a {
@@ -485,8 +482,8 @@ img {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); }
   .mainMenu .closeIcon {
     position: absolute;
-    right: 45%;
-    top: 120px;
+    right: 50px;
+    top: 40px;
     z-index: 9;
     color: #ffffff;
     font-size: 20px;
@@ -498,9 +495,10 @@ img {
       transform: rotate(180deg); }
     @media only screen and (max-width: 767px) {
       .mainMenu .closeIcon {
-        right: 45%;
-        top: 80px; } }
+        right: 20px;
+        top: 20px; } }
   .mainMenu .logo-area a {
+    width: 80%;
     color: #ffffff;
     font-size: 30px;
     display: block;
@@ -516,7 +514,7 @@ img {
         font-size: 14px; } }
   .mainMenu .copywrite-text a {
     font-weight: 100;
-    color: #ffffff; }
+    color: #41a6ff; }
     .mainMenu .copywrite-text a:hover, .mainMenu .copywrite-text a:focus {
       font-size: 14px; }
   .mainMenu .nav-link {
@@ -817,7 +815,7 @@ img {
       font-weight: 300;
       margin-bottom: 0; }
     .footer-area .copywrite-text a {
-      color: #565656;
+      color: #41a6ff;
       font-weight: 300;
       font-size: 15px; }
       .footer-area .copywrite-text a:hover, .footer-area .copywrite-text a:focus {
