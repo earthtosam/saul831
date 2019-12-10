@@ -230,6 +230,37 @@ img {
   border-radius: 50%;
   top: 10px; }
 
+#scrollUp {
+  background-color: #2e2e2e;
+  border-radius: 50%;
+  bottom: 60px;
+  right: 60px;
+  box-shadow: 0 2px 6px 0 #0000004d;
+  color: #ffffff;
+  font-size: 30px;
+  height: 70px;
+  text-align: center;
+  width: 70px;
+  line-height: 66px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; }
+  #scrollUp:hover {
+    background-color: #4b4b4b; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #scrollUp {
+      bottom: 30px;
+      right: 30px;
+      height: 50px;
+      width: 50px;
+      line-height: 46px; } }
+  @media only screen and (max-width: 767px) {
+    #scrollUp {
+      bottom: 30px;
+      right: 30px;
+      height: 50px;
+      width: 50px;
+      line-height: 46px; } }
+
 .section-padding-100 {
   padding: 100px 0; }
 
